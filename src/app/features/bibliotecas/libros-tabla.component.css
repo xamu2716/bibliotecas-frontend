@@ -1,0 +1,35 @@
+.table-wrap {
+  background: #ffffff;
+  border: 1px solid #cfc8b8;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.6rem 0.9rem;
+  border-bottom: 1px solid #e3ded2;
+}
+
+th {
+  font-weight: 600;
+}
+
+tbody tr:nth-child(even) td {
+  background: #f7f5ef;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+.vacio {
+  text-align: center;
+  color: #7a7568;
+}

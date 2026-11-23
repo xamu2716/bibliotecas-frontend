@@ -1,0 +1,77 @@
+.card {
+  background: #ffffff;
+  border: 1px solid #cfc8b8;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  margin: 0 0 1rem;
+  font-size: 1rem;
+  color: #2b3a36;
+}
+
+label {
+  font-size: 0.8rem;
+  color: #2b3a36;
+  margin-bottom: 0.25rem;
+}
+
+input {
+  padding: 0.5rem 0.6rem;
+  margin-bottom: 0.75rem;
+  border: 1px solid #b9b19f;
+  border-radius: 2px;
+  font-size: 0.9rem;
+  background: #fbfaf7;
+}
+
+input:focus {
+  outline: 2px solid #0f5c4d;
+  outline-offset: 0;
+  background: #ffffff;
+}
+
+.field-error {
+  color: #8f2a1c;
+  font-size: 0.75rem;
+  margin: -0.5rem 0 0.75rem;
+}
+
+.form-error {
+  background: #f8e4e0;
+  color: #8f2a1c;
+  border-left: 4px solid #8f2a1c;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.85rem;
+  margin: 0 0 0.75rem;
+}
+
+.form-success {
+  background: #e1f0ea;
+  color: #0f5c4d;
+  border-left: 4px solid #0f5c4d;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.85rem;
+  margin: 0 0 0.75rem;
+}
+
+button {
+  padding: 0.6rem;
+  border: none;
+  border-radius: 2px;
+  background: #0f5c4d;
+  color: #fff;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+button:hover:not(:disabled) {
+  background: #0b463a;
+}
+
+button:disabled {
+  background: #86a89f;
+  cursor: not-allowed;
+}
